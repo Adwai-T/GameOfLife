@@ -24,7 +24,7 @@ public class Main {
 
         int count = 1;
 
-        // System.out.println("Please Enter the Number of Cells To play Game of Life : ");
+        System.out.println("Please Enter the Number of columns to form a Square Matrix to play Game of Life : ");
 
         String[] ar = getUserInput().split(" ");
 
@@ -52,7 +52,7 @@ public class Main {
             matrix.printMatrix(arr);
             count++;
 
-            Thread.sleep(290);
+            Thread.sleep(300);
 
             clearScreen();
         }
